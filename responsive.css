@@ -1,0 +1,506 @@
+.checkbtn {
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 4px 5px 1px 5px;
+    display: none;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+
+#check {
+    display: none;
+}
+@media (max-width:576px) {
+    .logo{
+        width:100%;
+        margin:0;
+        padding:10px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navLinks {
+        background-color:blue;
+        position: absolute;
+        top:110px;
+        left:100px;
+        flex-direction: column;
+        display: none;
+        height: 300px;
+        width: 100%;
+        /* padding-left: 200px; */
+    }
+
+    .navLinks li{
+        background-color:lightblue;
+        height: 24.5%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navLinks li:hover{
+        background-color:lightblue;
+    }
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked~.navLinks {
+        display: flex;
+    }
+    .inquire{
+        visibility: hidden;
+    }
+    .navBar button{
+        visibility:hidden;
+    }
+    .navLinks .dropdown1:hover .dropdownlist1 {
+        visibility: hidden;
+    }
+    .navLinks .dropdown2:hover .dropdownlist2 {
+        visibility: hidden;
+    }
+    .navLinks .dropdown3:hover .dropdownlist3 {
+        visibility: hidden;
+    }
+    .navLinks .dropdown4:hover .dropdownlist4 {
+        visibility: hidden;
+    }
+    .navLinks .dropdown5:hover .dropdownlist5 {
+        visibility: hidden;
+    }
+    .heroContainer{
+        width: 100%;
+        margin:0;
+        padding:0;
+        flex-direction: column;
+    }
+    .heroSection{
+        width: 100%;
+        margin:0;
+        padding:0;
+        flex-direction: column;
+    }
+    .jumbotron{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .jumbotron h1{
+        font-size: 40px;
+        width: 100%;
+        margin-left: 2px solid;
+    }
+    .jumbotron p{
+        font-size: 30px;
+        width: 100%;
+        display: flex;align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .aboutContainer{
+        width: 100%;
+        height:100%;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;}
+    .title{
+        width:100%;
+        font-size: 20px;
+        margin:0;
+        /* padding:0; */
+        padding:30px 20px 10px;
+        display: flex;align-items: center;
+        justify-content: center;
+    }
+    .aboutSection{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+    .aboutLeft{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        /* margin: 10px; */
+        flex-direction: column;
+    }
+    .aboutLeft p{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin: 0;
+        flex-direction: column;
+    }
+    .aboutRight{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        margin: 0;
+        flex-direction: column;
+    }
+    .aboutImage{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin: 0;
+    }
+    .signup{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px 16px;
+        margin: 0;
+    }
+    .cardContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+        padding:0 10px;
+    }
+    .cardSection{
+        width: 100%;
+        padding: 0;
+        margin:0 10px;
+    }
+    .card{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .cardBody,.cardHeader{
+        width: 100%;
+        padding: 20px 0;
+        margin: 0;
+    }
+    .card i{
+        font-size: small;
+    }
+    .cardLeft, .cardRight{
+        width: 100%;
+        padding:10px 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardLeft li{
+        width: 100%;
+        padding: 20px 0;
+        margin: 0;
+        font-size: small;
+        padding-left: 15px;
+    }
+    .cardRight li{
+        width: 100%;
+        padding: 20px 0;
+        margin: 0;
+        font-size: small;
+
+    }
+    .gridContainer{
+        width:100%;
+        padding:0 20px;
+        padding-bottom: 30px;
+    }
+    .coding{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0;
+        margin: 0;
+        flex-direction: column;
+    }
+    .coding h2{
+        width: 100%;
+        text-align: center;
+        padding: 0 30px;
+        margin: 0;
+    }
+    .coding p{
+        width: 100%;
+        text-align: center;
+        padding: 10px 30px;
+        margin: 0;
+    }
+    .whyContainer{
+        width: 100%;
+        /* height:50%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .whyContainer h2{
+
+        width:80%;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+        font-size:25px;
+    }
+    .whyContainer h2 span{
+        width:80%;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .whyContainer p{
+        width:80%;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .readyContainer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ready{
+        width:80%;
+        padding:0;
+        margin:0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ready h2{
+        width:100%;
+        padding:30px 0;
+        margin:0;
+        font-size:25px;
+    }
+    .ready p{
+        width:80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .btn2{
+        width: 80%;
+    }
+    .textSection{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .textSection h2{
+        text-align: center;
+        padding:30px 50px;
+        margin:0;
+    }
+    .textSection h2 span{
+        text-align: justify;
+        padding:0;
+        margin:0;
+    }
+    .textSection p{
+        width: 80%;
+        padding: 10px;
+        margin: 0
+    }
+    .lastContainer{
+        
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;margin: 0;
+    }
+    .lastSection{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .lastSection h2{
+        width: 80%;
+        padding-top: 30px;
+        margin: 0;
+        text-align: center;
+    }
+    .lastSection p{
+        text-align: center;
+        padding:20px;
+        margin: 0;
+        width: 100%;
+    }
+    .levels{
+        width: 80%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sem{
+        width: 80%;
+        padding:0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+        object-fit: contian;
+    }
+    .lastSection h3{
+        width: 100%;
+        padding: 10px 0;margin: 0;
+        text-align: center;
+    }
+    .pedagogy{
+        width: 80%;
+        padding: 30px 0;
+        margin: 0;
+    }
+    .readmore,.kickstart{
+        width:80%;
+        margin:0 20px;
+        padding:10px 0;
+        margin-bottom: 10px;
+        font-size: small;
+    }
+    .footerContainer{
+        width: 100%;
+        margin: 0;padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footerBody1{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 20px;
+        /* background-color: #fff; */
+    }
+    .footerImage{
+        width: 80%;
+        /* height:60%; */
+        padding-left:30px;margin: 0;
+    }
+    .footerBody1 p{
+        /* background-color: aqua; */
+        /* padding: 10px 0 10px 30px; */
+        margin:0;
+        text-align: left;
+    }
+
+    .footerInfo{
+        text-align: left;
+        /* background-color: aqua; */
+        padding:10px 0;
+        padding-left: 70px;
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        flex-direction: column;
+    }
+    .phone{
+        /* padding:10px 0; */
+        /* background-color: #fff; */
+        text-align: left;
+    }
+    .phone i,.msg i,.address i{
+        margin-right: 10px;
+    } 
+    .msg{
+        /* background-color: #fff; */
+        text-align: left;
+    }
+    .address{
+        /* background-color: #fff; */
+        text-align: left;
+        /* padding:0; */
+    }
+    .address p{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .footerBody2{
+        width:100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding:0; 
+        margin:0;
+    }
+    .footerBody2 h4{
+        padding-top: 10px;
+        padding-left:70px;
+        text-align: left;
+    }
+    .footerBody2 p{
+        width:100%;
+        padding:5px 0;
+        text-align: left;
+        padding-left: 70px;
+        /* background-color: aqua; */
+    }
+    .footerBody3{
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-left: 70px;
+    }
+    .footerBody3 h3{
+        text-align: left;
+    }
+    .whatsapp{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    
+
+    }
